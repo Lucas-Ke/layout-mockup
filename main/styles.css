@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #383e4c;
+}
+nav>button{
+    background-color: #383e4c;
+    color: white;
+    height: 27px;
+    width: 90px;
+    margin: 7px;
+    border: solid 1px #5d6674;
+}
+nav>button:hover{
+    background-color: #49505f;
+}
+.hero{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    background-image: url(/layout-01-assets/img11.jpg);
+    max-width: 100%;
+    height: 286px;
+    background-size: cover;
+}
+.hero>p{
+    align-self: center;
+}
+div:empty{
+    width: 300px;
+    height: 100px;
+    border: red solid 1px;
+}
+h3{
+    /* display: flex; */
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin: 10px;
+}
+#top{
+    width: 300px;
+    /* border: red solid 1px; */
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+}
+#btm:not(button){
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    justify-content: end;
+}
+#btm>p{
+    margin: 15px;
+}
+#btm>button{
+    margin: 15px;
+    background-color: white;
+}
+.btm{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3:nth-of-type(1):not(#btm)>p::first-line{
+    color: green;
+}
+h3:nth-of-type(2):not(#btm)>p::first-line{
+    color: dodgerblue;
+}
+h3:nth-of-type(3)>p::first-line{
+    color: maroon;
+}
+h3:not(#btm)>div>button{
+    padding: 5px 15px;
+    color: whitesmoke;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3:nth-of-type(1)>div>button{
+    background-color: green;
+    border: lightgrey;
+    margin: 20px 75px;
+}
+h3:nth-of-type(2)>div>button{
+    background-color: dodgerblue;
+    border: lightgrey;
+    margin: 20px 75px;
+}
+h3:nth-of-type(3)>div>button{
+    background-color: maroon;
+    border: lightgrey;
+    margin: 20px 75px;
+}
+h2{
+    width: 100%;
+    height: 300px;
+    background-image: url(/layout-01-assets/img13.jpg);
+}
+h4:not(:nth-of-type(1)){
+    width: 15%;
+    margin: 9px;
+    background-color: lightgray;
+}
+.h4{
+    width: 15%;
+    margin: 9px;
+    background-color: lightgray;
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+}
+.big{
+    width: calc(60% + 54px);
+    margin: 9px;
+    background-color: lightgray;
+}
+section{
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    
+}
+
